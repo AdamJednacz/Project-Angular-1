@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import {LayoutModule} from "./layout/layout.module";
+
+import {LayoutComponent} from "./layout/layout.component";
+
 
 
 
@@ -8,7 +10,7 @@ import {LayoutModule} from "./layout/layout.module";
 @Component({
   selector: 'app-root',
   standalone:true,
-  imports:[LayoutModule],
+  imports:[LayoutComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
