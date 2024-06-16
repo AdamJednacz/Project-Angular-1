@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {TableComponent} from "./table/table.component";
+import {DashboardComponent} from "./dashboard/dashboard.component";
 
 @Component({
   selector: 'app-content',
   standalone:true,
-  imports:[TableComponent],
+  imports:[DashboardComponent],
   templateUrl: './content.component.html',
   styleUrl: './content.component.scss'
 })

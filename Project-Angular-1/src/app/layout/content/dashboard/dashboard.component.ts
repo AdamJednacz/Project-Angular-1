@@ -22,16 +22,16 @@ const ELEMENT_DATA: PeriodicElement[] = [
 ];
 
 /**
- * @title Basic use of `<table mat-table>`
+ * @title Basic use of `<dashboard mat-dashboard>`
  */
 @Component({
-  selector: 'app-table',
-  styleUrl: 'table.component.scss',
-  templateUrl: 'table.component.html',
+  selector: 'app-dashboard',
+  styleUrl: 'dashboard.component.scss',
+  templateUrl: 'dashboard.component.html',
   standalone: true,
   imports: [MatTableModule],
 })
-export class TableComponent {
+export class DashboardComponent {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
 }
